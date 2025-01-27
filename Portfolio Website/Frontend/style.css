@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --font-family: "Open Sans", serif;
+    --color: white;
+    --padding-left: 20px;
+    --padding-top: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #030332;
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #030328;
+}
+
+header h3 {
+    font-size: 27px;
+    font-family: "Open Sans", serif;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    font-size: 18px;
+}
+
+#firstsection {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#meet {
+    font-size: 500px;
+    font-family: "Open Sans", serif;
+    margin-left: 40px;
+}
+
+#name {
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+}
+
+#leftsection {
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#AnshVishwakarma1 {
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+button {
+    margin-top: 0px;
+    margin-left: 1px;
+    width: 132px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #1313e2;
+    border: 2px solid black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#after_name {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+#About_me {
+    padding-top: 60px;
+    color: var(--color);
+    font-family: var(--font-family);
+    padding-left: var(--padding-left);
+    margin-left: 715px;
+    margin-top: 50px;
+}
+
+#About_me_para {
+    color: var(--color);
+    font-family: var(--font-family);
+    padding-left: var(--padding-left);
+    padding-top: var(--padding-top);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 0;
+
+}
+
+#secondsection {
+    display: flex;
+}
+
+#leftsection2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#rightsection2 {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #000000;
+    margin: 0 0 20px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+#thirdsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills {
+    color: var(--color);
+    font-family: var(--font-family);
+    margin-left: 715px;
+    margin-top: 115px;
+    padding-left: var(--padding-left);
+}
+
+#Projects {
+    color: var(--color);
+    font-family: var(--font-family);
+    margin-left: 715px;
+    margin-top: 115px;
+    padding-left: var(--padding-left);
+}
+
+#fourthsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourthsection .card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#Contact_Me {
+    color: var(--color);
+    font-family: var(--font-family);
+    margin-left: 715px;
+    margin-top: 130px;
+    padding-left: var(--padding-left);
+}
+
+label {
+    font-size: 50px;
+    margin-right: 10px;
+    color: white;
+    margin-left: 50px;
+}
+
+#Name_input {
+    margin: 50px 0px 50px 50px;
+    width: 93%;
+    height: 80px;
+    font-size: 25px;
+}
+
+#fifth_section {
+    margin-top: 0px;
+}
+
+#Submit {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: var(--font-family);
+    padding-left: var(--padding-left);
+}
